@@ -9,38 +9,45 @@
             <span></span>
         </div>
     </div>
+
     <div class="sidebar-body">
         <ul class="nav">
-            <li class="nav-item nav-category">Main</li>
+            <!-- Main Section -->
+            <li class="nav-item nav-author">Main</li>
             <li class="nav-item">
-                <a href="">
+                <a href="{{ route('dashboard.index') }}" class="nav-link {{ request()->routeIs('dashboard.index') ? 'active' : '' }}">
                     <i class="link-icon" data-feather="box"></i>
                     <span class="link-title">Dashboard</span>
                 </a>
             </li>
-            <li class="nav-item nav-category">Fields</li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="collapse" href="#categoryPages" role="button" aria-expanded="false" aria-controls="categoryPages">
-                    <i class="link-icon" data-feather="box"></i>
-                    <span class="link-title">Manage Categories</span>
-                    <i class="link-arrow" data-feather="chevron-down"></i>
-                </a>
-                <div class="collapse" id="categoryPages">
-                    <ul class="nav sub-menu">
-                        <li class="nav-item">
-                            <a href="">Categories</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
 
-            <li class="nav-item nav-category">Transaction</li>
+            <!-- Fields Section -->
+            <li class="nav-item nav-author">Fields</li>
             <li class="nav-item">
-                <a href="/reservation/index" class="nav-link">
-                    <i class="link-icon" data-feather="book-open"></i>
-                    <span class="link-title">Reservation</span>
+                <a href="/authors" class="nav-link {{ request()->routeIs('authors.index') ? 'active' : '' }}">
+                    <i class="link-icon" data-feather="users"></i>
+                    <span class="link-title">Authors</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/permissions" class="nav-link {{ request()->routeIs('permissions.index') ? 'active' : '' }}">
+                    <i class="link-icon" data-feather="lock"></i>
+                    <span class="link-title">Permissions</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/roles" class="nav-link {{ request()->routeIs('roles.index') ? 'active' : '' }}">
+                    <i class="link-icon" data-feather="shield"></i>
+                    <span class="link-title">Roles</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/roles" class="nav-link {{ request()->routeIs('roles.index') ? 'active' : '' }}">
+                    <i class="link-icon" data-feather="shield"></i>
+                    <span class="link-title">Roles</span>
                 </a>
             </li>
         </ul>
     </div>
 </nav>
+

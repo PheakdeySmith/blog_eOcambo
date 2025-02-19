@@ -14,7 +14,7 @@
     <meta name="robots" content="noindex, nofollow">
     <meta name="referrer" content="no-referrer-when-downgrade">
 
-    <title>Zento (Page 1)</title>
+    <title>Frontend</title>
 
     <link rel="shortcut icon" href="https://ghost.estudiopatagon.com/zento/favicon.ico">
     <link rel="canonical" href="https://ghost.estudiopatagon.com/zento/cta-carousel/">
@@ -25,11 +25,11 @@
 
     <meta property="og:site_name" content="Zento">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Zento (Page 1)">
+    <meta property="og:title" content="Frontend">
     <meta property="og:url" content="https://ghost.estudiopatagon.com/zento/cta-carousel/">
     <meta property="article:publisher" content="https://www.facebook.com/envato">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Zento (Page 1)">
+    <meta name="twitter:title" content="Frontend">
     <meta name="twitter:url" content="https://ghost.estudiopatagon.com/zento/cta-carousel/">
     <meta name="twitter:site" content="@envato">
     <meta name="generator" content="Ghost 5.75">
